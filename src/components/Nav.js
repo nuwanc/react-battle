@@ -10,7 +10,7 @@ function Nav(props){
             </NavLink>
             </li>
             <li>
-            <NavLink activeClassName='active' to='/battle'>
+            <NavLink exact activeClassName='active' to='/battle'>
                 Battle
             </NavLink>
             </li>
